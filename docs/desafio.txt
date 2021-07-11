@@ -1,0 +1,30 @@
+Desafio Parceria Digital
+Seu desafio é desenvolver um CRUD de Produtos. Um produto possui nome, marca, preço e quantidade em estoque.
+
+Você deve implementar as regras de negócio utilizando Laravel > 7.X. Nós recomendamos que você tente aplicar as melhores práticas de desenvolvimento, sua criatividade e experiência. Mantendo sempre a regra de negócio desacoplada. Se você precisar de qualquer informação adicional ou esclarecimento, você pode nos contatar pelo e-mail: [SEU EMAIL].
+
+Bônus:
+Documentação
+Readme
+SOLID
+Graphql
+GitFlow
+User Interface
+
+Você será avaliado de acordo com a senioridade da posição a qual está aplicando. Ao finalizar o desafio você deve submeter o Pull Request com o seu código para a avaliação, após isso entraremos em contato com você através do seu e-mail passando o nosso feedback.
+
+O que queremos ver:
+Senior
+¬ Testes
+¬ Demonstrar conhecimento profundo no Laravel
+¬ Demonstrar conhecimento profundo no React ou Vue
+Pleno
+¬ Docker
+¬ Front em Vue ou React
+¬ Dominio de outro Design Pattern além do MVC
+
+Junior
+¬ Blades componentizadas (caso utilize apenas o Laravel)
+¬ Uso personalizado de JS (caso utilize apenas o Laravel)
+¬ Conhecimento aprimorado no Laravel e no uso do design pattern MVC
+¬ Seguindo bons padrões de código e desenvolvimento
