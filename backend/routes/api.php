@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProdutosController;
+
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -14,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::post('/produto', [ProdutosController::class, 'inserirProduto']);
+Route::get('/produtos', [ProdutosController::class, 'obterPodutos']);
+Route::put('/produto/{produto_id}', [ProdutosController::class, 'atualizarProduto']);
+Route::delete('/produto/{produto_id}', [ProdutosController::class, 'deletarProduto']);
