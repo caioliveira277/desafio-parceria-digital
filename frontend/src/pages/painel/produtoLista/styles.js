@@ -1,8 +1,12 @@
 import styled from 'styled-components';
 
-export const Container = styled.main`
-    width: 100%;
-    max-width: 400px;
+export const Container = styled.section`
+    background: #fff;
+    padding-bottom: 30px;
+    div {
+        width: 100%;
+        max-width: 400px;
+    }
 `;
 
 export const InputLabel = styled.div`
