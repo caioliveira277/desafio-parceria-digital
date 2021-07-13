@@ -10,6 +10,6 @@
 ### `composer install`
 ### `php artisan migrate:refresh --seed`
 
-Após rodar os comandos será possível acessar o front configurado na porta 3001 e o backend na porta 3000
+Após rodar os comandos será possível acessar o front configurado na porta `3001` e o backend na porta `3000`
 
 
