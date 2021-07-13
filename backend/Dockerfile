@@ -1,4 +1,4 @@
-FROM wyveo/nginx-php-fpm:php72
+FROM wyveo/nginx-php-fpm:php74
 
 ADD nginx.conf /etc/nginx/conf.d/default.conf
 
