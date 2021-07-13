@@ -52,6 +52,7 @@ export default function ProdutoLista() {
                        return (
                             <Card
                                 key={produto.id}
+                                id={produto.id}
                                 nome={produto.nome}
                                 marca={produto.marca}
                                 preco={produto.preco}
