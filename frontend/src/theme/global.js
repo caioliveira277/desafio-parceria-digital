@@ -15,4 +15,10 @@ export const GlobalStyle = createGlobalStyle`
 		background: #fafafa;
 		overflow-x: hidden;
 	}
+	input.form-control{
+		&:focus {
+			border-color: #2E2E2E;
+			box-shadow: none;
+		}
+	}
 `;
