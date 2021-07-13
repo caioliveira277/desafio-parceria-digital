@@ -7,7 +7,7 @@ export const Container = styled.section`
         width: 100%;
         max-width: 400px;
 
-        .card {
+        .card-custom {
             margin: 40px 0;
         }
     }
