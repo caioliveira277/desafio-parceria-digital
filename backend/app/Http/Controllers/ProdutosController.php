@@ -15,6 +15,7 @@ class ProdutosController extends Controller
             'dados' => 'required|array|min:3|max:3',
             'nome' => 'required|string|max:255',
             'marca' => 'required|string|max:255',
+            'quantidade_estoque' => 'required|numeric',
             'preco' => 'required|numeric',
         ]);
 
@@ -50,6 +51,7 @@ class ProdutosController extends Controller
             'dados' => 'required|array|min:3|max:3',
             'nome' => 'required|string|max:255',
             'marca' => 'required|string|max:255',
+            'quantidade_estoque' => 'required|numeric',
             'preco' => 'required|numeric',
         ]);
 
