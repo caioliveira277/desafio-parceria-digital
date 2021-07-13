@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Subcontainer } from './styles';
+import { Container } from './styles';
 import { Card } from '../../../components';
 
 export default function ProdutoCadastro() {

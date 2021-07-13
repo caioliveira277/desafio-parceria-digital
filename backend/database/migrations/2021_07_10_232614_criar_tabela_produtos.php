@@ -17,6 +17,7 @@ class CriarTabelaProdutos extends Migration
             $table->increments('id');
             $table->string('nome');
             $table->string('marca');
+            $table->integer('quantidade_estoque')->default(0);
             $table->decimal('preco', 8, 2);
             $table->timestamp('created_at')->default(DB::raw('CURRENT_TIMESTAMP'));
             $table->timestamp('updated_at')->default(DB::raw('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'));

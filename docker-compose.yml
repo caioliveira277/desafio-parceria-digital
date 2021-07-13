@@ -7,7 +7,7 @@ services:
       # - .docker/mysql:/var/lib/mysql
     env_file:
       - .env
-    ports: 
+    ports:
       - "3306:3306"
   backend:
     build: ./backend
@@ -16,7 +16,7 @@ services:
       - ./backend:/usr/share/nginx
     env_file:
       - .env
-    ports: 
+    ports:
       - "3000:80"
     depends_on:
       - database
@@ -24,10 +24,10 @@ services:
     build: ./frontend
     container_name: frontend
     volumes:
-      - ./frontend:/usr/server
+      - ./frontend/src:/usr/server/src
     env_file:
       - .env
-    ports: 
+    ports:
       - "3001:3000"
     depends_on:
       - backend

@@ -6,6 +6,10 @@ export const Container = styled.section`
     div {
         width: 100%;
         max-width: 400px;
+
+        .card-custom {
+            margin: 40px 0;
+        }
     }
 `;
 
