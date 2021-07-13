@@ -12,7 +12,7 @@ class ProdutosController extends Controller
     public function inserirProduto(Request $request) {
         $dados = $request->input('dados');
         $validator = Validator::make(array_merge($request->all(), $dados), [
-            'dados' => 'required|array|min:3|max:3',
+            'dados' => 'required|array|min:4|max:4',
             'nome' => 'required|string|max:255',
             'marca' => 'required|string|max:255',
             'quantidade_estoque' => 'required|numeric',
@@ -27,6 +27,7 @@ class ProdutosController extends Controller
         $novo_produto->nome = $dados['nome'];
         $novo_produto->marca = $dados['marca'];
         $novo_produto->preco = $dados['preco'];
+        $novo_produto->quantidade_estoque = $dados['quantidade_estoque'];
 
         $novo_produto->save();
 
@@ -46,9 +47,8 @@ class ProdutosController extends Controller
     }
 
     public function atualizarProduto($produto_id, Request $request) {
-        $validator = Validator::make(array_merge(compact($produto_id), $request->all()), [
+        $validator = Validator::make(array_merge(['produto_id' => $produto_id], $request->dados), [
             'produto_id' => 'required|numeric|exists:App\Models\Produtos,id',
-            'dados' => 'required|array|min:3|max:3',
             'nome' => 'required|string|max:255',
             'marca' => 'required|string|max:255',
             'quantidade_estoque' => 'required|numeric',
@@ -72,7 +72,7 @@ class ProdutosController extends Controller
     }
 
     public function deletarProduto($produto_id, Request $request) {
-        $validator = Validator::make(compact($produto_id), [
+        $validator = Validator::make(['produto_id' => $produto_id], [
             'produto_id' => 'required|numeric|exists:App\Models\Produtos,id',
         ]);
 
