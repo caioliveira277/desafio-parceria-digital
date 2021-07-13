@@ -31,7 +31,6 @@ export default function ProdutoLista() {
                 return false;
             }
         });
-        console.log(produtosFiltrados);
         setProdutosFiltradosState(produtosFiltrados);
     }
     return (
