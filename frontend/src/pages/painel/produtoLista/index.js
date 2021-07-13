@@ -5,7 +5,7 @@ import { Card } from '../../../components';
 
 export default function ProdutoLista() {
     return (
-        <Container className="container d-flex justify-content-center pt-4">
+        <Container className="container d-flex justify-content-center">
             <div>
                 <InputLabel className="d-flex flex-column">
                     <label htmlFor="busca" className="fw-bold mb-2">Buscar produtos</label>
@@ -17,7 +17,15 @@ export default function ProdutoLista() {
                     </fieldset>
                     <small className="text-muted mt-1">Encontre produtos por nome, marca ou preço</small>
                 </InputLabel>
-                <Card />
+                <Card
+                    nome="Mini Hub USB Bright, 4 Portas 2.0, Preto"
+                    marca="Bright"
+                    preco="24.90"
+                    quantidade="02"
+                    data_cadastro="11/07/2021 11:11"
+                    data_atualizacao="11/07/2021 11:11"
+                    edicao={false}
+                />
             </div>
         </Container>
     )

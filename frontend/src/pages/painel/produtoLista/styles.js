@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     background: #fff;
-    padding-bottom: 30px;
+    padding: 50px 10px;
     div {
         width: 100%;
         max-width: 400px;
@@ -23,10 +23,6 @@ export const InputLabel = styled.div`
             border-top-left-radius: 3px;
             border-bottom-left-radius: 3px;
             border-radius: 0;
-            &:focus {
-                border-color: #2E2E2E;
-                box-shadow: none;
-            }
         }
         button {
             width: 40px;
