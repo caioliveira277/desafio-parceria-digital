@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T00:59:46.831Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Aq0NDHCw8BIU75BD2YrK" version="14.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T16:11:41.370Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ypD8rdA2xvtsTTqnqSuZ" version="14.6.0" type="github">
   <diagram id="OjX7OGXNQCsDIuZp0Mso" name="Page-1">
-    <mxGraphModel dx="813" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1123" dy="1122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="6zze8KN9016CIVqn-qtB-1" value="desafio_parceria_digital" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="395" y="90" width="60" height="60" as="geometry" />
+          <mxGeometry x="424" y="80" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6zze8KN9016CIVqn-qtB-2" value="Produtos" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="298" y="230" width="312" height="240" as="geometry" />
@@ -64,10 +64,10 @@
         <mxCell id="6zze8KN9016CIVqn-qtB-43" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;shadow=0;fillColor=#2a2a2a;" parent="1" vertex="1">
           <mxGeometry x="300" y="400" width="310" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mgDnKdsnDCoH38jj6wMY-1" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;shadow=0;fillColor=#2a2a2a;" vertex="1" parent="1">
+        <mxCell id="mgDnKdsnDCoH38jj6wMY-1" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;shadow=0;fillColor=#2a2a2a;" parent="1" vertex="1">
           <mxGeometry x="298" y="430" width="312" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="mgDnKdsnDCoH38jj6wMY-3" value="quantidade_estoque (int - default(0))" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="1">
+        <mxCell id="mgDnKdsnDCoH38jj6wMY-3" value="quantidade_estoque (int - default(0))" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="1" vertex="1">
           <mxGeometry x="328" y="380" width="282" height="30" as="geometry" />
         </mxCell>
       </root>
